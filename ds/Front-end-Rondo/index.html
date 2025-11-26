@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portal peixarias</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <header>
+        <div class="logo">Santos</div>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Produtos</li>
+                <li>Contato</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="text-circles">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+
+        <div class="list">
+            
+            <div class="item active">
+                <div class="product-img">
+                    <img src="download.jfif" alt="xucro schmidt">
+                </div>
+                <div class="content">
+                    <p class="product-tag">João Schmidt</p>
+                    <h2 class="product-name">volante</h2>
+                    <p class="description">
+                        João Schmidt é um futebolista brasileiro que atua como volante, atualmente jogando pelo Santos. Nascido em 1993, ele foi revelado nas categorias de base do São Paulo e, após passagens por clubes como Atalanta (Itália), Rio Ave (Portugal) e Kawasaki Frontale (Japão), foi contratado pelo Santos no início de 2024
+                    <button class="btn">Xucro</button>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="product-img">
+                    <img src="491587-1754041909.webp" alt="alexis">
+                </div>
+                <div class="content">
+                    <p class="product-tag">Alexis Duarte</p>
+                    <h2 class="product-name">zagueiro</h2>
+                    <p class="description">
+                        Alexis Duarte é um zagueiro paraguaio de futebol, que se tornou reforço do Santos em setembro de 2025. Ele tem 25 anos, foi revelado pelo Cerro Porteño e estava no Spartak Moscou antes de se transferir para o clube brasileiro. Duarte também atua pela seleção do Paraguai. 
+                    <button class="btn">Horripilante</button>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="product-img">
+                    <img src="ugly.jfif" alt="billal">
+                </div>
+                <div class="content">
+                    <p class="product-tag">Billal Brahimi</p>
+                    <h2 class="product-name">ponta</h2>
+                    <p class="description">
+                        Billal Brahimi é um atacante de futebol francês, naturalizado argelino, que atua pelo Santos FC desde setembro de 2025. Nascido em Beaumont-sur-Oise, ele também jogou na França por clubes como Nice, Brest, Le Mans e Stade Reims, além de passagens pela Inglaterra (Middlesbrough), Bélgica (Sint-Truidense) e pela seleção argelina. 
+                    <button class="btn">Precoce</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="arrows">
+            <button id="prev">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"/>
+                </svg>
+            </button>
+            <button id="next">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
+                </svg>
+            </button>
+        </div>
+
+        <div class="indicators">
+            <div class="numbers">01</div>
+            <div class="dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+
+    </main>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
